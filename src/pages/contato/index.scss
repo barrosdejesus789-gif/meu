@@ -1,0 +1,106 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.Conta{
+    height: 1200px;
+    display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+background-color: gray;
+}
+.contato{
+background-color: rgb(194, 194, 194);
+width: 650px;
+height: 1000px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+  border-radius: 25px;
+  border: 4px solid rgb(0, 0, 0);
+    border-radius: 30px;
+  box-shadow: 0 15px 65px rgba(0, 255, 76, 0.15);
+}
+
+h1{
+font-size: 45px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 100px;
+}
+h2{
+    color: rgb(0, 0, 0) ;
+    margin-top: 50px;
+font-size: 30px;
+padding: 5px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.In{
+    margin-top: 70px;
+border-radius: 120x;
+width: 550px;
+height: 55px;
+}
+.On{
+    margin-top: 20px;
+border-radius: 120x;
+width: 550px;
+height: 55px;
+
+}
+
+select{
+    margin-top: 20px;
+width: 490px;
+height: 40px;
+
+}
+
+.opcoes{
+display: flex;
+flex-direction: column;
+gap: 12px;
+margin-top: 50px;
+}
+label{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: black;
+
+}
+
+a{
+    color: rgb(255, 255, 255);
+margin-top: 80px;
+border-radius: 20px;
+border: 2px solid rgb(0, 0, 0) ;
+height: 50px;
+width: 180px;
+padding: 12px;
+background-color: rgb(51, 51, 51);
+text-align: center;
+
+}
+.href:hover{
+border-radius: 20px;
+border: 2px solid black;
+}
+
+.Passe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+background-color: rgb(104, 103, 103);
+border-radius: 20px;
+width: 230px;
+height: 70px;
+ 
+}
+.Passe:hover{
+    color: black;
+background-color: white;
+
+}
