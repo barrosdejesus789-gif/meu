@@ -4,6 +4,7 @@ import { useState } from 'react'
 export default function Contador() {
 const[contador, setcontador]=useState(0);
 
+
 function menos(){
     setcontador(contador -1);
 }
