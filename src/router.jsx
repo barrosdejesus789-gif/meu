@@ -4,6 +4,7 @@ import Contato from './pages/contato/index.jsx'
 import Contador from './pages/contador/index.jsx';
 import Loco from './pages/Loco/index.jsx'
 
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 export default function Rotear() {
