@@ -2,6 +2,7 @@ import './index.scss'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
+
 export default function Loco() {
   const [texto, SetTexto] = useState('');
   const [cor, SetCor] = useState('');
