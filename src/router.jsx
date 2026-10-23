@@ -4,6 +4,7 @@ import Contato from './pages/contato/index.jsx'
 import Contador from './pages/contador/index.jsx';
 import Loco from './pages/Loco/index.jsx'
 import Outro from './pages/outro/index.jsx'
+import Estudar from './pages/Estudar_prova/index.jsx';
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -18,6 +19,7 @@ export default function Rotear() {
                     <Route path='/contador' element={<Contador/>}/>
                     <Route path='/loco' element={<Loco/>}/>
                     <Route path='/outro' element={<Outro/>}/>
+                    <Route path='/estudar' element={<Estudar/>}/>
                 </Routes>
             </BrowserRouter>
         </React.StrictMode>
